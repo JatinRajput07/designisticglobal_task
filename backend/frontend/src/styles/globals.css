@@ -1,0 +1,133 @@
+header {
+  background: linear-gradient(179deg, #b1a8a8f5, transparent);
+}
+
+header .menu-list ul li a {
+  font-size: 20px;
+  color: black;
+}
+
+header .menu-list ul li a:hover {
+  color: rgb(179, 11, 39);
+}
+
+.active{
+  color: rgb(179, 11, 39);
+  border-bottom: 3px solid rgb(179, 11, 39);
+}
+
+header .menu-list ul li:hover {
+  border-bottom: 3px solid rgb(179, 11, 39);
+}
+
+.left-section img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.left-section .calender {
+  position: absolute;
+  width: 80px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.right-section .search-box i {
+  position: absolute;
+  right: 25px;
+  top: 1px;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+footer {
+  background: hsl(199deg 49% 22%);
+}
+
+footer hr {
+  background: red;
+}
+
+/* service page style */
+
+.service .service-header {
+  background-color: #5379a0;
+  border-bottom: 5px solid #17a2b8;
+}
+
+.service .sale-bussiness-text {
+  color: #0066ff;
+  border-bottom: 5px solid #0066ff;
+}
+
+/* About page style */
+
+.aboutUs .brdcrmb ul li a {
+  font-size: 17px;
+  color: white;
+}
+
+.aboutUs img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.aboutUs .paragraph .italic-text {
+  border-left: 4px solid #17a2b8;
+}
+
+.aboutUs .banner {
+  height: 200px;
+}
+
+.aboutUs .banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutUs .banner .text-header {
+  position: inherit;
+  top: -200px;
+  height: 200px;
+  background: #10104abd;
+}
+
+.aboutUs .choose-us .box-1 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 0.5px solid #575e65;
+}
+
+.aboutUs .choose-us .box {
+  height: 350px;
+}
+
+.aboutUs .choose-us .box-2 {
+  border-radius: 50%;
+  width: 90px;
+  margin-left: 4px;
+  margin-top: 4px;
+  height: 90px;
+  border: 0.5px solid #575e65;
+}
+.aboutUs .choose-us .box-2 i {
+  margin: 16px;
+  color: #575e65;
+  font-size: 50px;
+}
+
+/* contect us page style */
+
+input[type="checkbox"]{
+  width: 30px;
+  height: 30px;
+}
+
+
+.text-danger {
+  font-size: 12px;
+}
